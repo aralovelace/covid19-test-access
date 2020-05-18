@@ -1,0 +1,396 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-md-12">
+      <tabset>
+        <tab heading="Basic Information">
+          <div class="card">
+            <div class="card-header">
+              <strong>Personal Details</strong>
+            </div>
+            <div class="card-body">
+              <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >First Name</label>
+                  <div class="col-md-9">
+                    <input type="text" name="text-input" class="form-control" placeholder="First Name">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Last Name</label>
+                  <div class="col-md-9">
+                    <input type="text"  name="text-input" class="form-control" placeholder="Last Name">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" for="date-input">Date of Birth</label>
+                  <div class="col-md-9">
+                    <input class="form-control" id="date-input" type="date" name="date-input" placeholder="date">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" for="inline-radios">Sex</label>
+                  <div class="col-md-9 col-form-label">
+                    <div class="form-check form-check-inline mr-1" id="inline-radios">
+                      <input class="form-check-input" type="radio" name="inline-radios" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline mr-1">
+                      <input class="form-check-input" type="radio" name="inline-radios" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">Female</label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3" >Race</label>
+                  <div class="col-md-9">
+                    <select  name="select1" class="form-control">
+                      <option value="">Please Select</option>
+                      <option value="0">White</option>
+                      <option value="1">Black</option>
+                      <option value="1">Asian</option>
+                      <option value="1">Prefer not to Say</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Address</label>
+                  <div class="col-md-5">
+                    <input type="text"  name="text-input" class="form-control" placeholder="Address 1">
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text"  name="text-input" class="form-control" placeholder="Address 2">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-3" ></div>
+                  <div class="col-md-5">
+                    <input type="text"  name="text-input" class="form-control" placeholder="City">
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text"  name="text-input" class="form-control" placeholder="State/Province/Region">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-3" ></div>
+                  <div class="col-md-5">
+                    <select  name="select1" class="form-control">
+                      <option value="0">Country</option>
+                      <option value="1">United Kingdom </option>
+                      <option value="2">USA</option>
+                      <option value="3">Australia</option>
+                    </select>
+                  </div>
+                  <div class="col-md-4">
+                    <input type="text"  name="text-input" class="form-control" placeholder="Postal Code">
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <div class="form-group row">
+                    <label class="col-md-3 col-form-label" for="email_address">Email Address</label>
+                    <div class="col-md-9">
+                      <input type="text" id="email_address" name="email_address" class="form-control" placeholder="email@email.com" disabled>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-md-3 col-form-label">Phone or Mobile Number</label>
+                    <div class="col-md-9">
+                      <input type="text"  name="disabled-input" class="form-control" placeholder="Phone Number" >
+                    </div>
+                  </div>
+                </div>
+
+              </form>
+            </div>
+            <div class="card-footer">
+              <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Update</button>
+            </div>
+          </div>
+        </tab>
+
+        <tab heading="Job Details">
+          <div class="card">
+            <div class="card-header">
+              <strong>If you are a frontliner you need to fill this up</strong>
+            </div>
+              <div class="card-body">
+                <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Job Title</label>
+                  <div class="col-md-9">
+                    <input type="text"  name="text-input" class="form-control" placeholder="Job Title">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3" >Are you a frontliner</label>
+                    <div class="col-md-9">
+                      <select  name="select1" class="form-control">
+                        <option value="">Please Select</option>
+                        <option value="0">YES</option>
+                        <option value="1">NO</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-md-3" >If You are not working at home or if you are a frontliner. How often you go to work</label>
+                    <div class="col-md-9">
+                      <select  name="select1" class="form-control">
+                        <option value="">Please Select</option>
+                        <option value="0">Everyday - 7 days</option>
+                        <option value="1">Weekdays only</option>
+                        <option value="1">4-3 times a week</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-md-3" >Industry if you are a key worker</label>
+                    <div class="col-md-9">
+                      <select  name="select1" class="form-control">
+                        <option value="">Please Select</option>
+                        <option value="0">Health and social care</option>
+                        <option value="1">Education and childcare</option>
+                        <option value="1">Key public services</option>
+                        <option value="1">Local and national government</option>
+                        <option value="1">Food and goods provisions</option>
+                        <option value="1">Public safety and national security</option>
+                        <option value="1">Transport</option>
+                        <option value="1">Utilities, communications and key financial services</option>
+                        <option value="1">Others</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <label class="col-md-3 col-form-label" >If Others:</label>
+                    <div class="col-md-9">
+                      <input type="text"  name="text-input" class="form-control" placeholder="Job Title">
+                    </div>
+                  </div>
+
+
+
+                </form>
+              </div>
+              <div class="card-footer">
+                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Update</button>
+              </div>
+
+          </div>
+        </tab>
+
+
+
+
+        <tab heading="Medical History">
+
+          <div class="card">
+            <div class="card-header"><i class="fa fa-align-justify"></i>List of your or your family Medical Conditions</div>
+            <div class="card-body">
+              <table class="table">
+                <thead>
+                <tr>
+                  <th>Person</th>
+                  <th>Condition</th>
+                  <th>Medication Taken</th>
+                  <th>Treatment</th>
+                  <th>Status</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>Samppa Nori</td><td>2012/01/01</td><td>Member</td><td>Member</td><td><span class="badge badge-success">Active</span></td>
+                </tr>
+                <tr>
+                  <td>Estavan Lykos</td><td>2012/02/01</td><td>Staff</td><td>Member</td><td><span class="badge badge-danger">Banned</span></td>
+                </tr>
+                </tbody>
+              </table>
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+
+          <div class="card">
+            <div class="card-header">
+              <strong>Medical History</strong> Please add any  medical conditions that you or your family have  or had
+            </div>
+            <div class="card-body">
+              <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="form-group">
+                  <label >Person who has health condition</label>
+                  <select  name="select1" class="form-control">
+                    <option value="">Please Select</option>
+                    <option value="0">You</option>
+                    <option value="1">Mother</option>
+                    <option value="1">Father</option>
+                    <option value="1">Brother</option>
+                    <option value="1">Sister</option>
+                    <option value="1">Grandmother</option><option value="1">Grandfather</option>
+                  </select>
+                </div>
+
+                  <div class="form-group">
+                    <label >Health Condition</label>
+                    <select  name="select1" class="form-control">
+                      <option value="">Please Select</option>
+                      <option value="0">HIV</option>
+                      <option value="1">Arthritis</option>
+                      <option value="1">Asthma</option>
+                      <option value="1">Diabetes</option>
+                      <option value="1">Cancer</option>
+                      <option value="1">High Cholesterol</option>
+                      <option value="1">Kidney Disease</option>
+                      <option value="1">Stroke</option>
+                      <option value="1">Others</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label>If Others:</label>
+                      <input type="text"  name="text-input" class="form-control" placeholder="Job Title">
+                  </div>
+                <div class="form-group">
+                  <label>Medication Taken:</label>
+                  <input type="text"  name="text-input" class="form-control" placeholder="Medication">
+                </div>
+
+                <div class="form-group">
+                  <label>Treatment:</label>
+                  <input type="text"  name="text-input" class="form-control" placeholder="Treatment">
+                </div>
+
+                <div class="form-group">
+                  <label>Notes</label>
+                  <textarea id="textarea-input" name="textarea-input" rows="4" class="form-control" placeholder=""></textarea>
+                </div>
+
+                <div class="form-group ">
+                    <div class="form-check form-check-inline mr-1">
+                      <input class="form-check-input" type="checkbox" name="inline-radios" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Still Ongoing?</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Add Medical Condition</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </tab>
+
+        <tab heading="Current Status">
+
+          <div class="card">
+            <div class="card-header">
+              <strong>Quarantine Situation</strong>
+            </div>
+            <div class="card-body">
+              <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+
+                <div class="form-group">
+                  <label >Who you are living with</label>
+                  <select  name="select1" class="form-control">
+                    <option value="">Please Select</option>
+                    <option value="0">Alone</option>
+                    <option value="1">Family</option>
+                    <option value="1">Friends</option>
+                    <option value="1">Flatmates</option>
+                    <option value="1">At Work</option>
+                    <option value="1">Others</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label>If Others:</label>
+                  <input type="text"  name="text-input" class="form-control" placeholder="Specify Who are you living with">
+                </div>
+
+                <div class="form-group">
+                  <label>How many of them:</label>
+                  <input type="text"  name="text-input" class="form-control" placeholder="Number of people you are living with">
+                </div>
+
+                <div class="form-group">
+                  <label >Any of them are key worker?</label>
+                  <select  name="select1" class="form-control">
+                    <option value="">Please Select</option>
+                    <option value="0">Yes</option>
+                    <option value="1">No</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label>If Yes how many:</label>
+                  <input type="text"  name="text-input" class="form-control" placeholder="Specify number of keyworkers you are currently living with">
+                </div>
+
+                <div class="form-group">
+                  <label >Any of them are/were positive with COVID-19?</label>
+                  <select  name="select1" class="form-control">
+                    <option value="">Please Select</option>
+                    <option value="0">Yes</option>
+                    <option value="1">No</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label>If Yes how many:</label>
+                  <input type="text"  name="text-input" class="form-control" placeholder="Specify number of positive of COVID-19 you are currently living with">
+                </div>
+
+                <div class="form-group">
+                  <label >Do you need someone to help you on a regular basis?</label>
+                  <select  name="select1" class="form-control">
+                    <option value="">Please Select</option>
+                    <option value="0">Yes</option>
+                    <option value="1">No</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label >Do you use cane,walker, or wheelchair?</label>
+                  <select  name="select1" class="form-control">
+                    <option value="">Please Select</option>
+                    <option value="0">Yes</option>
+                    <option value="1">No</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Add Medical Condition</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </tab>
+
+
+
+
+      </tabset>
+    </div>
+</div>
+</div>

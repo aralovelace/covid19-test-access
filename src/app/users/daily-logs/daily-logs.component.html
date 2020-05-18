@@ -1,0 +1,133 @@
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-md-12">
+      <tabset>
+        <tab heading="Symptoms Logs">
+
+            <div class="card">
+              <div class="card-header">
+                <strong>Add any Symptoms you experience</strong>
+              </div>
+              <div class="card-body">
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label">Date</label>
+                  <div class="col-md-9">
+                    <input class="form-control"  type="date" name="date-input" placeholder="date">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Symptoms experiencing</label>
+                  <div class="col-md-9">
+                    <select  name="select1" class="form-control">
+                      <option value="0">Please Select</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Level of the Symptoms</label>
+                  <div class="col-md-9">
+                    <select  name="select1" class="form-control">
+                      <option value="0">Please Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Temperature in Celsius</label>
+                  <div class="col-md-9">
+                    <input type="text"  name="text-input" class="form-control" placeholder="Temperature">
+                  </div>
+                </div>
+
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Additional Notes</label>
+                  <div class="col-md-9">
+                    <textarea id="textarea-input" name="textarea-input" rows="4" class="form-control" placeholder=""></textarea>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="card-footer">
+                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Log Symptom</button>
+              </div>
+            </div>
+        </tab>
+
+        <tab heading="Travel Logs">
+            <div class="card">
+              <div class="card-header">
+                <strong>Travel Log</strong>
+              </div>
+              <div class="card-body">
+                <div class="form-group row">
+                  <label class="col-md-2 col-form-label">Date From </label>
+                  <div class="col-md-4">
+                    <input class="form-control"  type="date" name="date-input" placeholder="date">
+                  </div>
+                  <label class="col-md-2 col-form-label">Date To </label>
+                  <div class="col-md-4">
+                    <input class="form-control"  type="date" name="date-input" placeholder="date">
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >Did you practice social distancing?</label>
+                  <div class="col-md-9">
+                    <select  name="select1" class="form-control">
+                      <option value="0">Please Select</option>
+                      <option value="0">YES</option>
+                      <option value="0">NO</option>
+
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >What is your mode of Transportation</label>
+                  <div class="col-md-9">
+                    <select  name="select1" class="form-control">
+                      <option value="0">Please Select</option>
+                      <option value="0">Bus</option>
+                      <option value="0">Train</option>
+                      <option value="0">Plane</option>
+                      <option value="0">Boat</option>
+                      <option value="0">Car</option>
+                      <option value="0">Bicycle</option>
+                      <option value="0">Walk</option>
+                      <option value="0">Others</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="col-md-3 col-form-label" >How many people you encounter during this trip</label>
+                  <div class="col-md-9">
+                    <select  name="select1" class="form-control">
+                      <option value="0">Please Select</option>
+                      <option value="0">0-5</option>
+                      <option value="0">5-10</option>
+                      <option value="0">10-30</option>
+                      <option value="0">30-50</option>
+                      <option value="0">50-80</option>
+                      <option value="0">80-100</option>
+                      <option value="0">100-300</option>
+                      <option value="0">300+</option>
+                    </select>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <div class="card-footer">
+                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> Log Travel</button>
+              </div>
+            </div>
+        </tab>
+      </tabset>
+  </div>
+
+</div>
